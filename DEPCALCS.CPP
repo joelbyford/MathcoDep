@@ -1,0 +1,28 @@
+// DepCalcs.cpp: implementation of the CDepCalcs class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "MathcoDep.h"
+#include "DepCalcs.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+CDepCalcs::CDepCalcs()
+{
+	m_IsNew = TRUE;
+}
+
+CDepCalcs::~CDepCalcs()
+{
+
+}
+
